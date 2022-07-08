@@ -1,0 +1,13 @@
+//constructor with lowercase of class name
+
+class privateconstructor
+{
+	privateconstructor()
+	{
+		System.out.println("lower case constructor");
+	}
+	public static void main(String[]args)
+	{
+		System.out.println("hello");
+	}
+}
