@@ -1,0 +1,41 @@
+class Example 
+{
+	Example()
+	{
+		System.out.println("no parameters is created");
+	}
+	Example(int n)
+	{
+			System.out.println("int parameter is created");
+	}
+	Example(byte b)
+	{
+		System.out.println("byte parameter is created");
+	}
+	Example(long ln)
+	{
+		System.out.println("long parameter is created");
+	}
+	Example(double d)
+	{
+		System.out.println("double parameter is created");
+	}
+	Example(String s)
+	{
+		System.out.println("string parameter is created");
+	}
+	Example(Object data)
+	{
+		System.out.println("object data is created");
+	}
+	public static void main(String[] args) 
+	{
+		Example e1=new Example('A');
+		Example e2=new Example(34);
+		Example e3=new Example((byte)23);
+		Example e4=new Example(12L);
+		Example e5=new Example(10.5);
+		Example e6=new Example("hello");
+		Example e7=new Example((float)78.6);
+	}
+}
