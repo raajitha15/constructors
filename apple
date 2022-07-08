@@ -1,0 +1,13 @@
+class Apple 
+{
+	Apple(String color,String size)
+	{
+		System.out.println("apple is red in colour and size is small");
+	}
+
+	public static void main(String[] args) 
+	{
+		Apple a=new Apple(null,null);
+		
+	}
+}
