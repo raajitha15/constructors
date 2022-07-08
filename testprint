@@ -1,0 +1,22 @@
+//wap to test println
+class Testprint
+{
+	public static void main(String[] args) 
+	{
+		System.out.println();//no compiler type error.
+	}
+}
+
+//ctrl+shift+t---->opentype in eclipse
+
+
+//wap to test print
+class Testprint
+{
+	public static void main(String[] args) 
+	{
+		System.out.print();//  no suitable method found for print(no arguments)
+                //System.out.print();
+                          ^
+	}
+}
