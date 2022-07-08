@@ -1,0 +1,16 @@
+class Car 
+{
+	Car(String s)
+	{
+		System.out.println("name of the car is lamborigini");
+	}
+	Car(int n)
+	{
+		System.out.println("number of the car seats are:2");
+	}
+	public static void main(String[] args) 
+	{
+		Car c1=new Car(null);
+		Car c2=new Car(0);
+	}
+}
