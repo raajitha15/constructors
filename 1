@@ -1,0 +1,21 @@
+//Wap to print all the even numbers from m to n
+import java.util.Scanner;
+class Even_Number
+{
+	public static void main(String[] args) 
+	{
+		int m,n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the starting eange of m");
+		m=sc.nextInt();
+		System.out.println("enter the ending range of n");
+		n=sc.nextInt();
+		for(int count=m;count<=n;count++)
+		{
+			if(count%2==0)
+			{
+				System.out.println(count);
+			}
+		}
+	}
+}
