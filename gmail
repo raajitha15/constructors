@@ -1,0 +1,19 @@
+class Gmail 
+{
+	String name;
+	long number;
+	Gmail(String name,long number)
+	{
+		this.name=name;
+		this.number=number;
+		System.out.println(name);
+		System.out.println(number);
+	}
+	public static void main(String[] args) 
+	{
+		Gmail g1=new Gmail("jagnnath",123456789L);
+		System.out.println(g1.name);
+		System.out.println(g1.number);
+
+	}
+}
