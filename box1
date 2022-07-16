@@ -1,0 +1,25 @@
+class	Box1  
+{
+	public Box1(double l,double w,double h)
+	{
+		System.out.println("three dimensional box having the dimensions as follows");
+		System.out.println("length"+l);
+		System.out.println("width"+w);
+		System.out.println("height"+h);
+	}
+	public Box1(int l1,int w1)
+	{
+		System.out.println("two dimensional box having the dimensions as follows");
+		System.out.println("length"+l1);
+		System.out.println("width"+w1);
+	}
+}
+class TestBox
+{
+	public static void main(String[]args)
+	{
+		Box1 b1=new Box1(10,20,30);
+		Box1 b2=new Box1(20,25);
+	}
+}
+
