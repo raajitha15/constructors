@@ -1,0 +1,33 @@
+//dimensions program using method
+class	Box2  
+{
+	int length,width,height;
+	Box2(int l,int w,int h)
+	{
+		this.length=l;
+		this.width=w;
+		this.height=h;
+	}
+	public void displaydimensions()
+	{
+		System.out.println("box created with the dimensions as follows");
+		System.out.println("length:"+length);
+		System.out.println("width:"+width);
+		if(height>0)
+		{
+			System.out.println("heigth:"+height);
+			System.out.println("3 dimensional box created");
+		}
+		else
+		{
+			System.out.println("2 dimensional box created");
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Box2 b1=new Box2(10,20,30);
+		b1.displaydimensions();
+		Box2 b2=new Box2(20,30,40);
+		b2.displaydimensions();
+	}
+}
